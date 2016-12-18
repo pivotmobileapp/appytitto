@@ -85,7 +85,7 @@ padding-bottom:25px;
 
 .tab-bar{
 /*background:#006cbb;*/
-background:#009688;
+background:#006cbb;
 }
 .clear{
 clear:both;
@@ -493,7 +493,7 @@ text-align: right;
 }
 
 .cod{
-color:#05A183;
+color:#006cbb;
 }
 .pyr{
 color:#333476;
@@ -947,7 +947,7 @@ background:#D42525;
 .status.accepted,
 .status.acknowledged
 {
-background:#33a17e ;
+background:#006cbb ;
 }
 .status.started 
 {
@@ -955,7 +955,7 @@ background:#ba68c8;
 }
 .status.inprogress  
 {
-background:#ec391c;
+background:#C91C00;
 }
 
 .map-bottom-wrapper{
