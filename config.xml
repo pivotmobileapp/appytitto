@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    id        = "com.pivotmobileapp.appytiteot"
+    id        = "com.pivotmobileapp.appytiteto"
     version   = "1.0.7">
     <name>Appy-tite Order Taking </name>
     <description>
@@ -96,10 +96,8 @@
     <preference name="SplashScreenDelay" value="10000" />  
     
     <gap:plugin name="cordova-plugin-googlemaps"  source="npm"  >
-	   <param name="API_KEY_FOR_ANDROID" value="AIzaSyCCQo5BQOlCyCUqdSAYGuEMTf7P8s22i5c
-" />
-	   <param name="API_KEY_FOR_IOS" value="AIzaSyCCQo5BQOlCyCUqdSAYGuEMTf7P8s22i5c
-" />
+	   <param name="API_KEY_FOR_ANDROID" value="AIzaSyCCQo5BQOlCyCUqdSAYGuEMTf7P8s22i5c" />
+	   <param name="API_KEY_FOR_IOS" value="AIzaSyCCQo5BQOlCyCUqdSAYGuEMTf7P8s22i5c" />
 	</gap:plugin>	
 	
 	<gap:plugin name="cordova-plugin-media" source="npm" />
