@@ -88,7 +88,7 @@
                
 	<preference name="orientation" value="portrait" />
 	<preference name="android-build-tool" value="gradle" />	
-	<!--<preference name="phonegap-version" value="cli-6.4.0" />-->
+	<preference name="phonegap-version" value="cli-6.4.0" />
 		
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
@@ -102,8 +102,8 @@
 	<preference name="AutoHideSplashScreen" value="false" />  	
     <preference name="SplashScreenDelay" value="10000" />  
     
-    <!--<gap:plugin name="cordova-plugin-googlemaps"  source="npm" spec="1.3.9" >-->
-    <gap:plugin name="cordova-plugin-googlemaps"  source="npm"  >
+    <gap:plugin name="cordova-plugin-googlemaps"  source="npm" spec="1.3.9" >
+<!--    <gap:plugin name="cordova-plugin-googlemaps"  source="npm"  >-->
 	   <param name="API_KEY_FOR_ANDROID" value="AIzaSyCCQo5BQOlCyCUqdSAYGuEMTf7P8s22i5c" />
 	   <param name="API_KEY_FOR_IOS" value="AIzaSyCCQo5BQOlCyCUqdSAYGuEMTf7P8s22i5c" />
 	</gap:plugin>	
