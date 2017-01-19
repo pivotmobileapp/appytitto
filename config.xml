@@ -3,16 +3,16 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
     id        = "com.pivotmobileapp.appytiteto"
-    version   = "1.0.1">
-    <name>Appy-tite Order Taking </name>
+    version   = "1.0.2">
+    <name>Appy-tite Manager </name>
     <description>
-        Appy-tite Order Taking
+        Appy-tite Manager
     </description>
     <author email="jupiter@pivotmobileapp.com" href="http://pivotmobileapp.com">
         Pivot Mobile App
     </author>
-    <icon src="icon.png" />
-        <icon src="Icon-App-60x60@3x.png" platform="ios" width="180" height="180" />
+    <icon src="icon.png" />       
+    <icon src="Icon-App-60x60@3x.png" platform="ios" width="180" height="180" />
     <icon src="ldpi.png" platform="android" qualifier="ldpi" />
 	<icon src="mdpi.png" platform="android" qualifier="mdpi" />
 	<icon src="hdpi.png" platform="android" qualifier="hdpi" />
@@ -69,15 +69,21 @@
 	<!-- iPhone 6 -->
 	<splash src="Default-667h@2x.png" platform="ios" width="750" height="1334" />
 	<splash src="Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />
-	<splash src="Default-Landscape-736h@3x.png" platform="ios" width="2208" height="1242" />
+
 
 	<!-- iPad -->
 	<splash src="Default-Portrait.png" platform="ios" width="768" height="1024" />
-	<splash src="Default-Landscape.png" platform="ios" width="1024" height="768" />
+
 
 	<!-- Retina iPad -->
 	<splash src="Default-Portrait@2x.png" platform="ios" width="1536" height="2048" />
-	<splash src="Default-Landscape@2x.png" platform="ios" width="2048" height="1536" />           
+           
+    <splash src="splash/ldpi.png" platform="android" qualifier="ldpi" />
+	<splash src="splash/mdpi.png" platform="android" qualifier="mdpi" />
+	<splash src="splash/hdpi.png" platform="android" qualifier="hdpi" />
+	<splash src="splash/xhdpi.png" platform="android" qualifier="xhdpi" />
+	<splash src="splash/xhdpi.png" platform="android" qualifier="fr-xhdpi" />
+	<splash src="splash/xxhdpi.png" platform="android" qualifier="port-xxhdpi" />          
     <content src="index.html" />
                
 	<preference name="orientation" value="portrait" />
